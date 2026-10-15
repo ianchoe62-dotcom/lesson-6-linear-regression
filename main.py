@@ -72,7 +72,7 @@ st.info(
 )
 
 # 레이아웃 나누기 (왼쪽: 그래프, 오른쪽: 예측 슬라이더)
-col1, col2 = st.column(([2, 1]))
+col1, col2 = st.column([2, 1])
 
 with col1:
     st.subheader("📈 연도별 연평균기온 및 회귀선")
